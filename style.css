@@ -1,0 +1,65 @@
+:root {
+  --bg: linear-gradient(135deg, #667eea, #764ba2);
+  --card: white;
+  --text: black;
+}
+
+body.dark {
+  --bg: #111;
+  --card: #1e1e1e;
+  --text: white;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.calculator {
+  background: var(--card);
+  color: var(--text);
+  padding: 15px;
+  border-radius: 12px;
+  width: 260px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+#display {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: right;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.zero {
+  grid-column: span 2;
+}
