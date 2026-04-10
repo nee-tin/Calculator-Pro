@@ -3,4 +3,4 @@ Interactive calculator with theme toggle and keyboard support using HTML, CSS, a
 
 
 
-Live Demo: https://codepen.io/Nitin-Karki/pen/qENYeWy
+live demo: https://nee-tin.github.io/Calculator-Pro/
